@@ -1,0 +1,47 @@
+/*Блок "button"*/
+.button {
+	background-color: yellow;
+	border-radius: 20% 10%;
+}
+
+/*Елемент "text" блоку "button"*/
+.button__text {
+	font-family: Tahoma, sant-serif;
+	font-weight: bold;
+}
+
+/*Модифікатор "red" елемента "text" блоку "button"*/
+.button__text_red {
+	color: red;
+}
+
+.button__text_blue {
+	color: blue;
+}
+
+.button__text_green {
+	color: green;
+}
+
+.button__text_gray {
+	color: gray;
+}
+
+/*Модифікатор "small" блоку "button"*/
+.button_small {
+	width: 50px;
+	height: 25px;
+	font-size: 11px;
+}
+
+.button_medium {
+	width: 70px;
+	height: 30px;
+	font-size: 13px;
+}
+
+.button_large {
+	width: 100px;
+	height: 40px;
+	font-size: 17px;
+}
